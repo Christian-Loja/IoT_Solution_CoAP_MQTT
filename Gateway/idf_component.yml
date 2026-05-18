@@ -1,0 +1,3 @@
+dependencies:
+  espressif/coap: "^4.3.5"
+  espressif/mqtt: "^1"

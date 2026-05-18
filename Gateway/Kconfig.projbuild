@@ -1,0 +1,15 @@
+menu "Wi-Fi Bridge Configuration"
+
+    config ESP_WIFI_SSID
+        string "Wi-Fi SSID"
+        default ""
+        help
+            SSID used by the ESP32-WROOM-32 HTTP-to-CoAP bridge.
+
+    config ESP_WIFI_PASSWORD
+        string "Wi-Fi password"
+        default ""
+        help
+            Wi-Fi password used by the ESP32-WROOM-32 HTTP-to-CoAP bridge.
+
+endmenu
